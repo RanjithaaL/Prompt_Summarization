@@ -12,7 +12,7 @@ from langchain.chains.summarize import load_summarize_chain
 import requests
 from bs4 import BeautifulSoup
 
-genai.configure(api_key='AIzaSyD1lSixXAqeC9NYs2tCjirVBgWYKsGE4fs')
+genai.configure(api_key='<API_KEY>')
 
 llm=ChatGoogleGenerativeAI(model='gemini-pro',temperature=0.2,top_p=0.85)
 
