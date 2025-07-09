@@ -1,3 +1,9 @@
+## Project Overview
+
+Engineered a document search solution employing web scraping, AI integration, and web scrolling; enhanced user search experience for 500+ documents, leading to a 50% reduction in average retrieval time and improved user satisfaction.
+
+This system allows users to upload PDFs, ask questions, and get summarized results quickly using advanced LLMs. It combines voice and text input options, and supports seamless interaction through a Streamlit interface.
+
 # Document Search & Summarization System
 
 This project implements a document search and summarization system capable of:
@@ -78,28 +84,25 @@ Document_Summarization/
 
 If you haven’t cloned yet:
 
-git clone https://github.com/RanjithaaL/Document_Summarization.git
+git clone https://github.com/RanjithaaL/Prompt_Summarization.git
 cd Document_Summarization
 
 ### 2. Install Requirements
 
-Install all Python dependencies (Git Bash):
+Install all Python dependencies:
 
 pip install -r requirements.txt
 
-streamlit run app.py
+###  3. Run
 
-Or any other app:
+To use OPENAI_API_key:
+  streamlit run app.py
 
-streamlit run geem.py
+To use GEMINI_API_KEY:
+
+streamlit run gem.py
 
 ---
-
-### 3. Run Command-Line Scripts
-
-Some scripts run in terminal, e.g.:
-
-python m1.py
 
 ### Environment Variables
 
@@ -107,5 +110,10 @@ Make sure you have a `.env` file in your project root containing:
 
 OPENAI_API_KEY=your_openai_key_here
 GOOGLE_API_KEY=your_google_key_here
+
+---
+
+
+
 
 
