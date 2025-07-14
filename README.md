@@ -25,7 +25,7 @@ This system allows users to upload PDFs, ask questions, and get summarized resul
 - [How to Run](#how-to-run)
 - [Environment Variables](#environment-variables)
 
-## 🚀 Features
+## Features
 
 **Text-based Search & Summarization**
 
@@ -54,7 +54,7 @@ This system allows users to upload PDFs, ask questions, and get summarized resul
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python
 - LangChain
@@ -87,7 +87,7 @@ Document_Summarization/
 
 ---
 
-## 🖥 How to Run
+## How to Run
 
 ### 1. Clone This Repository
 
