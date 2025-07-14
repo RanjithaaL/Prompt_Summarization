@@ -17,6 +17,7 @@ Engineered a document search solution employing web scraping, AI integration, an
 This system allows users to upload PDFs, ask questions, and get summarized results quickly using advanced LLMs. It combines voice and text input options, and supports seamless interaction through a Streamlit interface.
 
 ---
+
 ##Table of Contents
 
 - [Features](#features)
@@ -24,6 +25,9 @@ This system allows users to upload PDFs, ask questions, and get summarized resul
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
 - [Environment Variables](#environment-variables)
+- [Future Enhancements](#future-enhancements)
+
+---
 
 ## Features
 
@@ -121,6 +125,13 @@ OPENAI_API_KEY=your_openai_key_here
 GOOGLE_API_KEY=your_google_key_here
 
 ---
+
+## Future Enhancements
+
+Future improvements could include integrating a user-friendly web interface and supporting multilingual summarization.
+
+---
+
 
 
 
