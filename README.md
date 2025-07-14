@@ -1,9 +1,3 @@
-## Project Overview
-
-Engineered a document search solution employing web scraping, AI integration, and web scrolling; enhanced user search experience for 500+ documents, leading to a 50% reduction in average retrieval time and improved user satisfaction.
-
-This system allows users to upload PDFs, ask questions, and get summarized results quickly using advanced LLMs. It combines voice and text input options, and supports seamless interaction through a Streamlit interface.
-
 # Document Search & Summarization System
 
 This project implements a document search and summarization system capable of:
@@ -16,30 +10,45 @@ This project implements a document search and summarization system capable of:
 
 ---
 
+## Project Overview
+
+Engineered a document search solution employing web scraping, AI integration, and web scrolling; enhanced user search experience for 500+ documents, leading to a 50% reduction in average retrieval time and improved user satisfaction.
+
+This system allows users to upload PDFs, ask questions, and get summarized results quickly using advanced LLMs. It combines voice and text input options, and supports seamless interaction through a Streamlit interface.
+
+---
+##Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Environment Variables](#environment-variables)
+
 ## 🚀 Features
 
-✅ **Text-based Search & Summarization**
+**Text-based Search & Summarization**
 
 - Scrape content from Wikipedia or Google Search
 - Summarize documents with LLMs using LangChain
 
-✅ **Voice Input Integration**
+**Voice Input Integration**
 
 - Capture speech with microphone
 - Convert speech to text
 - Trigger summarization pipelines
 
-✅ **PDF Chat Interface**
+**PDF Chat Interface**
 
 - Upload PDF files
 - Chat with PDF content via Google Gemini
 
-✅ **Multiple Model Backends**
+**Multiple Model Backends**
 
 - Google Gemini (Gemini-Pro)
 - OpenAI GPT-3.5 Turbo
 
-✅ **Streamlit User Interfaces**
+**Streamlit User Interfaces**
 
 - Interactive apps for user queries and summarization
 
@@ -59,7 +68,7 @@ This project implements a document search and summarization system capable of:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 Document_Summarization/
 - app.py
